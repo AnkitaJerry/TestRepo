@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('compile') {
       steps {
-        sh 'echo'
         bat 'echo code >1.txt'
       }
     }
